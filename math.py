@@ -10,5 +10,5 @@ def mult(a,b):
         
     return result
         
-
+#Example
 mult = mult(3,100)
