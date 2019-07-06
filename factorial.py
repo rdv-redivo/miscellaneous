@@ -1,6 +1,6 @@
 def fatorial(n):
 
-    if n == 2:
+    if n == 1 or n == 0:
         
         return n
 
