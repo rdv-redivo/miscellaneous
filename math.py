@@ -35,3 +35,7 @@ totalPowerRec = recurPower(0,2)
 totalPower = iterPower(5,3)
     
 totalMult = mult(3,100)
+
+'''
+Proof valid recursion (mathematical induction), n, n+1
+'''
