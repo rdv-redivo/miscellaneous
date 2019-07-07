@@ -1,3 +1,6 @@
+'''
+Is a recursive function a replicant?:-)
+'''
 def mult(a,b):
     
     result = 0
@@ -19,7 +22,16 @@ def iterPower(base, exp):
         total *= base
         
     return total
-        
-total = iterPower(5,3)
+
+def recurPower(base, exp):
+ 
+    if exp == 0:
+        return 1
+
+    return base * recurPower(base, exp - 1)
     
-mult = mult(3,100)
+totalPowerRec = recurPower(0,2)
+        
+totalPower = iterPower(5,3)
+    
+totalMult = mult(3,100)
