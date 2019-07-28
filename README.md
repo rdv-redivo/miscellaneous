@@ -1,2 +1,2 @@
-# miscellaneous
-Miscellaneous Functions Learning
+# Techniques and Algorithms
+Learning
